@@ -16,7 +16,7 @@ public class Main {
 		empressarial.add(0, f2);
 		todoFuncionarios.add(1, f2);
 		Funcionario f3 = new Funcionario("zxc", "0987", TipoFuncionario.ADIMINISTRATIVO);
-		empressarial.add(0, f3);
+		administrativo.add(0, f3);
 		todoFuncionarios.add(2, f3);
 		
 	}
