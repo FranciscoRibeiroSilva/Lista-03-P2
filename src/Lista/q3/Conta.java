@@ -35,8 +35,8 @@ public class Conta {
 	}
 	
 	public boolean sacar(double valor) {
-		if (getSaldo() >= valor) {
-			setSaldo(-valor);
+		if (this.saldo >= valor) {
+			this.saldo -= valor;
 			return true;
 		}
 		else {
